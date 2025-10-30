@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HoloCardExample_5
+  m_Shader: {fileID: -6465566751694194690, guid: f53e69627919dc245a2dc8b3cf54a4f3, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SPECULAR_SETUP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 2725435e472ea1d4f88c1944db86cd9d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FirstTexture:
+        m_Texture: {fileID: 2800000, guid: f4b4925eaf093ff49b9863c4b7320cb9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Heightmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HoloTexture:
+        m_Texture: {fileID: 5028909106014284962, guid: ee32ae5dc6f846c43a6fee7ec9913015, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Holo_Color_Ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Holo_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightGradientTexture:
+        m_Texture: {fileID: 2800000, guid: 4b256755f93b759449fa76131eadaa98, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightTexture:
+        m_Texture: {fileID: 2800000, guid: fdd7301212df6ba408f474937211fa86, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_53b62e4dd4494ccda91ed751aed90b40_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_556151079a9b467f8d7f7cf6b5af3a2c_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 50ed482d19002e24297e0c640ff96c66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7accf29472e449928a17a734e55196b7_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 507c0faedd5bede46ba8bbeab0985527, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8d139949e52f4e0c89a014b94fbb2a7f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: a400fad0c9cd3af4dbb31ae7e09431b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_aa15e5c2482c4506ad0a2dc1cdc805e5_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: bfff4bcf25d632b45ae8d78f68483d5b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fc34bc2374dc428e8073ea1bb3111142_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 18003831cd01e864a9a64319cbbc2ba1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondTexture:
+        m_Texture: {fileID: 2800000, guid: f2a83bfd28d4c5146983f896aa3f25a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceTexture:
+        m_Texture: {fileID: 2800000, guid: 5ee402ed84bfd334ca25507ebd3bc97a, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CardIntensity: 0
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DstBlend: 0
+    - _Heightmap_Strength: 0.51
+    - _HoloIntencity: 0.9
+    - _Holo_Anim_Speed: 0.4
+    - _Holo_Density: 1.5
+    - _Holo_Noise_Scale: 160
+    - _Holo_Offset: 0
+    - _Holo_Rotation_Scroll_Speed: 10
+    - _LightIntencity: 0.9
+    - _LightSensitivity: 6
+    - _LightTexture_1: 6
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.4
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _USE_COLOR_RAMP: 0
+    - _WorkflowMode: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    - _intensity: 1
+    - _pixelazation: 72.9
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CradTint: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    - _FirstTextureTiling: {r: 4, g: 4, b: 0, a: 0}
+    - _Holo_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Holo_Direction: {r: 1, g: 0, b: 0, a: 0}
+    - _LIghtTextureTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _LIghtTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _LightTextureTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _SecondTextureTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _SurfaceTextureTiling: {r: 4, g: 4, b: 0, a: 0}
+    - _Tint: {r: 0.7254902, g: 0.7254902, b: 0.7254902, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &1084754791663349458
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10
